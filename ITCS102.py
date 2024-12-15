@@ -184,7 +184,7 @@ def activity14():
     for m in range (0,11):
 	    for z in range(0,11):
 		    print("*", end="")
-	    print()
+print()
 def activity15():
     for z in range(0, 11):  # Outer loop from 0 to 10
         print(z, end="")  # Print the number without a newline
@@ -343,6 +343,403 @@ def activity25():
             fruit_list.append(new_fruit)
             print("Fruit added to the list.")
             continue
+
+def code_challenge1():
+    print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t*\n\t\t\t\t\t\t\t\t\t\t*\t*\t*\n\t\t\t\t\t\t\t\t\t*\t*\t*\t*\t*\n\t\t\t\t\t\t\t\t*\t*\t*\t*\t*\t*\t*\n\t\t\t\t\t\t\t\t\t*\t*\t*\t*\t*\n\t\t\t\t\t\t\t\t\t\t*\t*\t*\n\t\t\t\t\t\t\t\t\t\t\t*\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
+
+def code_challenge2():
+    name = input ("Please enter your name ----->")
+    print ("Hi", name)
+
+    print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t*\n\t\t\t\t\t\t\t\t\t\t*\t*\t*\n\t\t\t\t\t\t\t\t\t*\t*\t*\t*\t*\n\t\t\t\t\t\t\t\t*\t\t    ","Hi", name,"\t\t\t*\t\n\t\t\t\t\t\t\t\t\t*\t*\t*\t*\t*\n\t\t\t\t\t\t\t\t\t\t*\t*\t*\n\t\t\t\t\t\t\t\t\t\t\t*\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
+def code_challenge3():
+    Name = input("PLEASE INPUT YOUR NAME : ")                          
+    Nickname = input("PLEASE INPUT YOUR NICKNAME : ")
+    Address = input("PLEASE INPUT YOUR ADDRESS : ")
+    Age = input("PLEASE INPUT YOUR AGE : ")
+    Birthmonth = input("PLEASE INPUT YOUR BIRTHMONTH : ")
+    Birthday = input("PLEASE INPUT YOUR BIRTHDAY : ")
+    Birthyear = input("PLEASE INPUT YOUR BIRTHYEAR : ")
+    Gender = input("PLEASE INPUT YOUR GENDER : ")
+    Height = input("PLEASE INPUT YOUR HEIGHT : ")
+    Weight =  input("PLEASE INPUT YOUR WEIGHT : ")
+    Religion = input("PLEASE INPUT YOUR RELIGION : ")
+    Nationality = input("PLEASE INPUT YOUR NATIONALITY : ")
+    Citizenship = input("PLEASE INPUT YOUR CITIZENSHIP : ")
+    isMarried = False
+    CivilStatus = input("PLEASE INPUT YOUR CIVILSTATUS : ")
+    NameofFather = input("PLEASE INPUT YOUR NAMEOFFATHER : ")
+    OccupationofFather = input("PLEASE INPUT YOUR OCCUPATIONOFFATHER : ")
+    ContactNumberofFather = input("PLEASE INPUT YOUR CONTACTNUMBEROFFATHER : ")
+    NameofMother = input("PLEASE INPUT YOUR NAMEOFMOTHER : ")
+    OccupationofMother = input("PLEASE INPUT YOUR OCCUPATIONOFMOTHER : ")
+    ContactNumberofMother = input("PLEASE INPUT YOUR CONTACTNUMBEROFMOTHER : ")
+    Elementary = input("PLEASE INPUT YOUR ELEMENTARY : ")
+    YearStartedElementary = input("PLEASE INPUT YOUR YEARSTARTEDELEMENTARY : ")
+    YearCompletedElementary = input("PLEASE INPUT YOUR YEARCOMPLETEDELEMENTARY : ")
+    HighSchool = input("PLEASE INPUT YOUR HIGHSCHOOL : ")
+    YearStartedHighschool = input("PLEASE INPUT YOUR YEARSTARTEDHIGHSCHOOL : ")
+    YearCompletedHighschool = input("PLEASE INPUT YOUR YEARCOMPLETEDHIGHSCHOOL : ")
+    College = input("PLEASE INPUT YOUR COLLEGE : ")
+    Course = input("PLEASE INPUT YOUR COURSE : ")
+    Skills = input("PLEASE INPUT YOUR SKILLS : ")
+
+    print("Hi, my name is " + Name + " and I am also known as " + Nickname + ".\nMy current address is " + Address + ".\nI am ",Age," years of old, born in " + Birthmonth + " on " + Birthday + ", " + Birthyear + ".\nI am a " + Gender + " and have a height of" ,Height,"in centimeters and a weight of",Weight,"in kilogram." + "\nMy religion is " + Religion + ", and my nationality is " + Nationality + " and I hold " + Citizenship + " citizenship." + "\nIt is",isMarried, "that I am married and my civil status is " + CivilStatus + "." + "\nMy father's name is " + NameofFather + "." + "\nHe works as a " + OccupationofFather + ". He can be reached at his contact number,",ContactNumberofFather,"\b." + "\nMy mother's name " + NameofMother + ", and she is employed as a " + OccupationofMother + "." + "\nHer contact number is",ContactNumberofMother,"\b." + "\nAs for my educational background, I completed my elementary education at " + Elementary + " from" ,YearStartedElementary,"to",YearCompletedElementary,"\b." + "\nI attended " + HighSchool + " for my high school education from",YearStartedHighschool,"to",YearCompletedHighschool,"\b." + "\nI pursued higher education at " + College + ", where I studied " + Course + "." + "\nI have developed skills in " + Skills + "." + " I am confident that my background, skills, and experiences align well with your expectations.")
+
+def code_challenge4():
+    number1 = eval(input("Enter a number --> "))
+    number2 = eval(input("Enter a number --> "))
+    answer1 = number1 + number2
+    answer2 = number1 - number2
+    answer3 = number1 * number2
+    answer4 = number1/number2
+    answer5 = number1 ** number2
+    answer6 = number1 % number2
+    answer7 = number1 // number2
+    print("The sum of", number1, "and", number2, "is", answer1)
+    print("The difference of", number1, "and", number2, "is", answer2)
+    print("The product of", number1, "and", number2, "is", answer3)
+    print("The quotient of", number1, "and", number2, "is", answer4) 
+    print("The exponent by", number1, "and", number2, "is", answer5)
+    print("The remainder of", number1, "and", number2, "is", answer6)
+    print("The floor division of", number1,"and", number2, "is", answer7)
+
+def code_challenge5():
+    name = input("Please enter your name: ")
+    deposit = eval(input("Please enter amount to deposit: "))
+    one = deposit // 1000
+    one1 = deposit % 1000
+    two = one1 // 500
+    two1  = one1 % 500
+    three = two1 // 200
+    three1 = two1 % 200
+    four = three1 // 100
+    four1 = three1 % 100
+    five = four1 // 50
+    five1 = four1 % 50
+    six =  five1 // 20
+    six1 = five1 % 20
+    seven = six1 // 10
+    seven1 = six1 % 10
+    eight = seven1 // 5
+    eight1 = seven1 % 5
+    nine = eight1 // 1
+
+    print("Hi", name,  "the breakdown of your deposit is: ")
+    print(one, "-1000")
+    print(two, "-500")
+    print(three, "-200")
+    print(four, "-100")
+    print(five, "-50")
+    print(six, "-20")
+    print(seven, "-10")
+    print(eight, "-5")
+    print(nine, "-1")
+
+def code_challenge6():
+    Prelim = eval(input("Enter Prelim grade --> "))
+    Midterm = eval(input("Enter Midterm grade --> "))
+    Semifinal = eval(input("Enter Semifinal grade --> "))
+    Final = eval(input("Enter Final grade --> "))
+    Quiz = eval(input("Enter Quiz grade --> "))
+    Project = eval(input("Enter Project grade --> "))
+
+    if(Prelim >=65 and Prelim <=100) and (Midterm >=65 and Midterm <=100) and (Semifinal >=65 and Semifinal <=100) and (Final >=65 and Final <=100) and (Quiz >=65 and Quiz <=100) and (Project >=65 and Project <=100):
+        FinalGrade = (Prelim * 0.15) + (Midterm * 0.15) + (Semifinal * 0.15) + (Final * 0.15) + (Quiz * 0.25) + (Project * 0.15)
+    print(f"Your grade is : {round(FinalGrade, 2)}")
+    if FinalGrade > 100 :
+        print("Invalid Grade, Perhaps a mistake?")
+    elif FinalGrade >= 75 : 
+        print("Congratulations! You've passed the course")
+    else:
+        print("Sorry, You failed")
+
+def code_challenge7():
+    name = input("Enter your name :")
+    purchased_or_not = input("Did you purchase a grocery today? (Yes or No) :")
+
+    if purchased_or_not.lower() == "yes": 
+        purchased = input("What did you purchase :")
+    else:
+        print(exit("You didn't purchase a grocery today"))
+    
+    orig_price = eval(input("Item Price :"))
+    age = int(input("Age :"))
+    taxed_price = (orig_price * 0.123) + orig_price
+    discount = orig_price - (orig_price * 0.038) 
+    discount_taxed_price = orig_price - (discount * 0.123)
+    discount_senior = orig_price - (taxed_price * 0.123)
+    two_discount = orig_price - (taxed_price * 0.161)
+
+    if age >= 60 and age <= 150 and orig_price >= 4000 :
+        print(f'Total : {round(two_discount,2)}')
+    payment = eval(input("Payment :"))
+    print(f'Change : {round(payment - two_discount,2)}')
+        
+    elif orig_price >= 4000 :
+    print(f'Total : {round(discount_taxed_price, 2)} ')
+    payment = eval(input("Payment :"))
+    print(f'Change : {round(payment - discount_taxed_price, 2)} ')
+
+    elif age >= 60 and age <= 150 :
+    print(f'Total : {round(discount_senior,2)} ')
+    payment = eval(input("Payment :"))
+    print(f'Change : {round(payment - discount_senior,2)} ')
+        
+    else : 
+    print(f'Total : {round(taxed_price,2)} ')
+    payment = eval(input("Payment :"))
+    print(f'Change : {round(payment - taxed_price,2)} ')
+
+def code_challenge8():
+    print("Summation of 10 random numbers")
+    x = 0
+    for y in range (1,11):
+        add = eval(input(f"Input (y) = "))
+        x += add
+    print(f"The Summation of the number is: {x} ")
+
+def code_challenge9():
+    z = eval(input("Enter a number: "))
+    for x in range(z, 0,-1):
+        for y in range(z,x,-1):
+            print(" ", end=" ")
+        print("* " * x)
+
+def code_challenge10():
+    for m in range(1,6):
+        for i in range(6, m, -1):
+            print(" ", end = " ")
+        for n in range(1, m+1):
+            print("*", end=" ")
+        for g in range(1, m+1):
+            print("*", end =" ")
+        print()
+
+    for m in range(1,6):
+        for i in range(1, m + 1):
+            print(" ", end = " ")
+        for n in range(6, m ,-1):
+            print("*", end=" ")
+        for g in range(6, m, -1):
+            print("*", end =" ")
+        print()
+
+def code_challenge11():
+    for l in range(1,5):
+        for o in range(5, l, -1):
+            print(" ", end = " ")
+        for v in range(0, l+0):
+            print("*", end=" ")
+        for e in range(1, l+0):
+            print("*", end =" ")
+    print()
+
+for l in range(1,4):
+        for o in range(1, l + 2):
+            print(" ", end = " ")
+        for v in range(4, l ,-1):
+            print("*", end=" ")
+        for e in range(3, l, -1):
+            print("*", end =" ")
+        print()
+
+def code_challenge12():
+    for l in range(1,5):
+        for o in range(5, l, -1):
+            print(" ", end = " ")
+        for v in range(1, l+1):
+            print("*", end=" ")
+        for e in range(1, l+1):
+            print("*", end =" ")
+        print()
+
+    for l in range(0,4):
+        for o in range(4, 0, -1):
+            print(" ", end = " ")
+        for v in range(2,4):
+            print("*", end=" ")
+        for e in range(4, 0, -1):
+            print(" ", end =" ")
+        print()
+
+def code_challenge13():
+    for l in range(1,7):
+        for o in range(6, l, -1):
+            print(" ", end = " ")
+        for o in range(l, 1, -1):
+            print(o, end=" ")
+        for v in range(1, l+1):
+            print(v, end =" ")
+        print()
+
+    for l in range(5,0,-1):
+        for o in range(6, l, -1):
+            print(" ", end = " ")
+        for o in range(l,1,-1):
+            print(o, end=" ")
+        for v in range(1,l+1):
+            print(v, end =" ")
+        print()
+
+def code_challenge14():
+    tuloy = True
+    total = 0
+    while tuloy == True:
+        num = eval(input("Enter a number: "))
+
+        if num ==0:
+            print("Okay tama na")
+            print(f"The total of your inputted numbers is {total}!")
+            break
+
+        else:
+            total += num
+            continue
+
+def code_challenge15():
+    import os
+    tuloy = True
+    num = 0
+    while tuloy == True:
+        tria = input("Would you like to add a triangle?(Y/N): ")
+        if tria.lower() == "n":
+            os.system('cls')
+            print("PROGRAM TERMINATED. THANK YOU FOR USING ME")
+            break
+        elif tria.lower() == "y":
+            os.system('cls')
+            num += 1
+            for x in range(1,6):
+                for r in range(1, num+1):
+                    for y in range(1,x+1):
+                        print("*", end=" ")
+                    for z in range (6,x,-1):
+                        print("  ",end="")
+                print()
+            continue
+        else:
+            os.system('cls')
+            print("INVALID ANSWER. PLEASE TRY AGAIN")
+            continue
+
+def code_challenge916():
+    def denomination(amount):
+        print("\nDenomination Breakdown:")
+        
+        # Breaking the amount into denominations
+        thousands = amount // 1000
+        remainder = amount % 1000
+
+        five_hundreds = remainder // 500
+        remainder = remainder % 500
+
+        two_hundreds = remainder // 200
+        remainder = remainder % 200
+
+        hundreds = remainder // 100
+        remainder = remainder % 100
+
+        fifties = remainder // 50
+        remainder = remainder % 50
+
+        twenties = remainder // 20
+        remainder = remainder % 20
+
+        tens = remainder // 10
+        remainder = remainder % 10
+
+        fives = remainder // 5
+        remainder = remainder % 5
+
+        ones = remainder // 1
+
+        # Printing the breakdown
+        print("1000---", thousands)
+        print("500----", five_hundreds)
+        print("200----", two_hundreds)
+        print("100----", hundreds)
+        print("50-----", fifties)
+        print("20-----", twenties)
+        print("10-----", tens)
+        print("5------", fives)
+        print("1------", ones)
+
+    accounts = {}
+
+    def create_account():
+        username = input("Enter a username: ")
+        if username in accounts:
+            print("Account already exists!")
+        else:
+            accounts[username] = 0
+            print(f"Account created successfully for {username}.")
+
+    def deposit():
+        username = input("Enter your username: ")
+        if username in accounts:
+            try:
+                amount = int(input("Enter amount to deposit: "))
+                if amount > 0:
+                    accounts[username] += amount
+                    print(f"Deposited {amount} successfully. New balance: {accounts[username]}")
+                    denomination(amount)
+                else:
+                    print("Amount must be positive!")
+            except ValueError:
+                print("Invalid input! Please enter a whole number.")
+        else:
+            print("Account not found!")
+
+    def withdrawal():
+        username = input("Enter your username: ")
+        if username in accounts:
+            try:
+                amount = int(input("Enter amount to withdraw (whole numbers only): "))
+                if 0 < amount <= accounts[username]:
+                    accounts[username] -= amount
+                    print(f"Withdrawn {amount} successfully. Remaining balance: {accounts[username]}")
+                    denomination(amount)
+                else:
+                    print("Insufficient funds or invalid amount!")
+            except ValueError:
+                print("Invalid input! Please enter a whole number.")
+        else:
+            print("Account not found!")
+
+    def check_balance():
+        username = input("Enter your username: ")
+        if username in accounts:
+            print(f"Your balance: {accounts[username]}")
+        else:
+            print("Account not found!")
+
+    def options():
+        while True:
+            print("\nBanking System")
+            print("1. Create Account")
+            print("2. Deposit")
+            print("3. Withdraw")
+            print("4. Check Balance")
+            print("5. Exit")
+            choice = input("Choose an option (1-5): ")
+
+            if choice == '1':
+                create_account()
+            elif choice == '2':
+                deposit()
+            elif choice == '3':
+                withdrawal()
+            elif choice == '4':
+                check_balance()
+            elif choice == '5':
+                print("Thank you for using the Banking System!")
+                break
+            else:
+                print("Invalid option. Please try again.")
+
+    options()
+
 
 def main():
     while True:
