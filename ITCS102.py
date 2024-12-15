@@ -1,7 +1,7 @@
 def sample():
-    x = {"kupal": "elieza","pogi":"bajade"}
+    x = {"pretty": "elieza","cute":"anne"}
     print()
-    print(x["kupal"])
+    print(x["pretty"])
     print()
 
 def activity1():
@@ -623,7 +623,7 @@ def code_challenge15():
             print("INVALID ANSWER. PLEASE TRY AGAIN")
             continue
 
-def code_challenge916():
+def code_challenge16():
     def denomination(amount):
         print("\nDenomination Breakdown:")
         
