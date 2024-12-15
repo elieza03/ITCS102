@@ -10,29 +10,28 @@ def activity1():
     print()
 
 def activity2():
-    name = input("Enter your name: ")
-    age = input("Enter your age: ")
-    gender = input("Enter your gender: ")
-    nationality = input("Enter your nationality: ")
-    print(f"I'm {name}, a {gender}, and i'm alreadty {age}. I'am born {nationality}")
+    number1 = eval(input("Enter a number: "))
+    number2 = eval(input("Enter a number: "))
+    answer = number1 + number2
+    print(number1 , " plus " , number2 , " = " , answer)
+
 
 def activity3():
-    print()
-    Name = input("PLEASE INPUT YOUR NAME : ")                      
+    Name = input("PLEASE INPUT YOUR NAME : ")                          
     Nickname = input("PLEASE INPUT YOUR NICKNAME : ")
+    Address = input("PLEASE INPUT YOUR ADDRESS : ")
     Age = input("PLEASE INPUT YOUR AGE : ")
     Birthmonth = input("PLEASE INPUT YOUR BIRTHMONTH : ")
     Birthday = input("PLEASE INPUT YOUR BIRTHDAY : ")
     Birthyear = input("PLEASE INPUT YOUR BIRTHYEAR : ")
     Gender = input("PLEASE INPUT YOUR GENDER : ")
-    Address = input("PLEASE INPUT YOUR ADDRESS : ")
-    Nationality = input("PLEASE INPUT YOUR NATIONALITY : ")
-    isMarried = False
-    CivilStatus = input("PLEASE INPUT YOUR CIVILSTATUS : ")
-    Religion = input("PLEASE INPUT YOUR RELIGION : ")
-    Citizenship = input("PLEASE INPUT YOUR CITIZENSHIP : ")
     Height = input("PLEASE INPUT YOUR HEIGHT : ")
     Weight =  input("PLEASE INPUT YOUR WEIGHT : ")
+    Religion = input("PLEASE INPUT YOUR RELIGION : ")
+    Nationality = input("PLEASE INPUT YOUR NATIONALITY : ")
+    Citizenship = input("PLEASE INPUT YOUR CITIZENSHIP : ")
+    isMarried = False
+    CivilStatus = input("PLEASE INPUT YOUR CIVILSTATUS : ")
     NameofFather = input("PLEASE INPUT YOUR NAMEOFFATHER : ")
     OccupationofFather = input("PLEASE INPUT YOUR OCCUPATIONOFFATHER : ")
     ContactNumberofFather = input("PLEASE INPUT YOUR CONTACTNUMBEROFFATHER : ")
@@ -40,17 +39,16 @@ def activity3():
     OccupationofMother = input("PLEASE INPUT YOUR OCCUPATIONOFMOTHER : ")
     ContactNumberofMother = input("PLEASE INPUT YOUR CONTACTNUMBEROFMOTHER : ")
     Elementary = input("PLEASE INPUT YOUR ELEMENTARY : ")
-    YearAttendedElementary = input("PLEASE INPUT YOUR YEARATTENDEDELEMENTARY : ")
-    YearEndedElementary = input("PLEASE INPUT YOUR YEARENDEDELEMENTARY : ")
+    YearStartedElementary = input("PLEASE INPUT YOUR YEARSTARTEDELEMENTARY : ")
+    YearCompletedElementary = input("PLEASE INPUT YOUR YEARCOMPLETEDELEMENTARY : ")
     HighSchool = input("PLEASE INPUT YOUR HIGHSCHOOL : ")
-    YearAttendedHighSchool = input("PLEASE INPUT YOUR YEARATTENDEDHIGHSCHOOL : ")
-    YearEndedHighSchool = input("PLEASE INPUT YOUR YEARENDEDHIGHSCHOOL : ")
+    YearStartedHighschool = input("PLEASE INPUT YOUR YEARSTARTEDHIGHSCHOOL : ")
+    YearCompletedHighschool = input("PLEASE INPUT YOUR YEARCOMPLETEDHIGHSCHOOL : ")
     College = input("PLEASE INPUT YOUR COLLEGE : ")
     Course = input("PLEASE INPUT YOUR COURSE : ")
     Skills = input("PLEASE INPUT YOUR SKILLS : ")
-    print()
 
-  print(f"Hello! My name is {Name}, but people also call me {Nickname}. I am {Age} years old. I was born on {Birthmonth} {Birthday}, {Birthyear}. I live at {Address}. I am {Gender} and my religion is {Religion}. My nationality is {Nationality}, and I have {Citizenship} citizenship. It is {isMarried} that I am married, and my civil status is {CivilStatus}. I am {Height} cm tall and weigh {Weight} kg. My father’s name is {NameofFather}. He works as a {OccupationofFather} and can be contacted at {ContactNumberofFather}. My mother’s name is {NameofMother}. She works as a {OccupationofMother} and can be reached at {ContactNumberofMother}. I completed my elementary education at {Elementary} from {YearAttendedElementary} to {YearEndedElementary}. Then, I went to {HighSchool} for high school from {YearAttendedHighSchool} to {YearEndedHighSchool}. I attended {College} for college, studying {Course}. I have skills in {Skills}, which help me handle challenges, grow professionally, and achieve goals more effectively.")
+    print("Hi, my name is " + Name + " and I am also known as " + Nickname + ".\nMy current address is " + Address + ".\nI am ",Age," years of old, born in " + Birthmonth + " on " + Birthday + ", " + Birthyear + ".\nI am a " + Gender + " and have a height of" ,Height,"in centimeters and a weight of",Weight,"in kilogram." + "\nMy religion is " + Religion + ", and my nationality is " + Nationality + " and I hold " + Citizenship + " citizenship." + "\nIt is",isMarried, "that I am married and my civil status is " + CivilStatus + "." + "\nMy father's name is " + NameofFather + "." + "\nHe works as a " + OccupationofFather + ". He can be reached at his contact number,",ContactNumberofFather,"\b." + "\nMy mother's name " + NameofMother + ", and she is employed as a " + OccupationofMother + "." + "\nHer contact number is",ContactNumberofMother,"\b." + "\nAs for my educational background, I completed my elementary education at " + Elementary + " from" ,YearStartedElementary,"to",YearCompletedElementary,"\b." + "\nI attended " + HighSchool + " for my high school education from",YearStartedHighschool,"to",YearCompletedHighschool,"\b." + "\nI pursued higher education at " + College + ", where I studied " + Course + "." + "\nI have developed skills in " + Skills + "." + " I am confident that my background, skills, and experiences align well with your expectations.")
 
 def activity4():
     num1 = eval(input("Enter a number: "))
@@ -60,7 +58,11 @@ def activity4():
     print("The sum of", num1, "and", num2, "is", ans)
 
 def activity5():
-    pass
+    print("Convert Fahrenheit to Celsius")
+    fahrenheit = eval(input('\nEnter temperature in Fahrenheit: '))
+    celsius_temp = (fahrenheit - 32) * 5 / 9
+    print(f'\n\n{fahrenheit} degrees Fahrenheit is equal to {celsius_temp} degrees Celsius\n\nor')
+    print(f'\n{fahrenheit} degrees Fahrenheit is approximately {round(celsius_temp, 2)} degrees Celsius')
 
 def activity6():
     x=5
@@ -163,36 +165,184 @@ def activity11():
         name = input("Hi! Please input your name: ")
         print(f"Hi {name}")
 
+
 def activity12():
-    pass
+    for m in range(1,10,3):
+	    print(m)
+
 def activity13():
-    pass
+    print("Calculate Factorial\n")
+
+    number = int(input("Enter a number to find its factorial: "))
+    result = 1
+    for i in range(number, 0, -1):
+        result *= i
+
+    print(f"The factorial of {number} is {result}")
+
 def activity14():
-    pass
+    for m in range (0,11):
+	    for z in range(0,11):
+		    print("*", end="")
+	    print()
 def activity15():
-    pass
+    for z in range(0, 11):  # Outer loop from 0 to 10
+        print(z, end="")  # Print the number without a newline
+        for y in range(0, z):  # Inner loop to print asterisks
+            print("*", end="")  # Append an asterisk for each iteration
+        print("")  # Move to the next line after printing all asterisks for the current number
+
+
 def activity16():
-    pass
+    for x in range(1,6):
+        for y in range(1, x + 1):
+            print(" ", end = " ")
+        for z in range(6, x, -1):
+            print("^",end=" ")
+        for k in range(6, x, -1):
+            print("*",end=" ")
+    print()
+
 def activity17():
-    pass
+    columns = eval(input("Enter the number of columns: "))
+
+    for r in range(1, 11):
+        for co in range(1, columns + 1):
+            print(f"{r} x {col} = {r * c}", end="\t")
+        print()
+
 def activity18():
-    pass
+    n = eval(input("Enter the number of triangles: "))
+    for a in range(1, 5):
+        for b in range(1, n + 1):
+            for c in range(1, a + 1):
+                print("*", end=" ")
+
+            for d in range(5, a, -1):
+                print(" ", end=" ")
+        print()
+
 def activity19():
-    pass
+    tuloy = True
+    while tuloy == True:
+        name = input("Please enter a name: ")
+
+        if name.lower() == "stop":
+            print("Program Terminated")
+            break
+            tuloy = False
+        else:
+            continue
+
 def activity20():
-    pass
+    isContinue = True
+    triangleCount = 0
+
+    while isContinue:
+        userInput = input("Do you want to add another triangle? (yes / no): ")
+
+        if userInput.lower() == "no":
+            print("PROGRAM ENDED")
+            break
+        else:
+            triangleCount += 1
+            for o in range(1, 5):
+                for t in range(1, triangleCount + 1):
+                    for s in range(1, o + 1):
+                        print("*", end=" ")
+                    for q in range(5, o, -1):
+                        print(" ", end=" ")
+                print()
 def activity21():
-    pass
+    def say_hello():
+        print("Hello Elieza")
+
+    def say_hello_v2(name):
+        print(f"Hello {name}")
+
+    def activity2():
+        number1 = eval(input("Enter a number: "))
+        number2 = eval(input("Enter another number: "))
+        total = number1 + number2
+        print(number1, " plus ", number2, " = ", total)
+
+    tuloy = True
+    while tuloy:
+        ask = input("Please provide a name: ")
+
+        if ask.lower() != "stop":
+            say_hello_v2(ask)
+            if ask.lower() == "2":
+                activity2()
+            continue
+        
+        else:
+            break
+
 def activity22():
-    pass
+    print("\n----------------------------------------------------------------------\n")
+    print("Activity 22\n")
+    #Name listing and then count names
+
+    loop = True
+    names = []
+    while loop == True:
+        Name = input("What name would you like to add? ")
+        if Name.lower() == "stop":
+            print(names)
+            print(f"You have entered {len(names)} names! ")
+            break
+        else:
+            names.append(Name)
+    print("\n-----------------------------------------------------------------------\n")
+    
+
 def activity23():
-    pass
+    def factorial(number):
+        fact = 1
+        for a in range(number, 0, -1):
+            fact *= 1
+        return fact
+
 def activity24():
-    pass
+    from Activity23 import factorial
+
+    print(f"The Factorial of 4 is {factorial(4)}")
+
 def activity25():
-    pass
+    # Python list
+    fruit_list = ["apples", "banana", "oranges", "star apple", "grapes"]
+    print(fruit_list)
 
+    #Indexing / Index - position or location of an item in a list
+    #           0       1           2           3           4
+    #fruit_list = ["apples", "banana", "oranges", "star apple", "grapes"]
+    print(f"My favorite childhood fruit is {fruit_list[3]}")
 
+    print(f"The last item on the list is {fruit_list[-1]}")
+
+    #adding another item to the list
+    fruit_list.append("longgan")
+    print(fruit_list)
+    fruit_list.append("strawberry")
+    print(fruit_list)
+
+    #inserting an item at a specific index
+    fruit_list.insert(3, "strawberry")
+    print(fruit_list)
+    fruit_list.remove("longgan")
+    print(fruit_list)
+
+    while True:
+        new_fruit = input("Do you want to add more fruits? ")
+
+        if new_fruit.lower() == "no":
+            print("You chose not to add more fruits.")
+            break
+        else:
+            fruit_list.append(new_fruit)
+            print("Fruit added to the list.")
+            continue
 
 def main():
     while True:
@@ -201,10 +351,12 @@ def main():
             print("programm executed")
             break
         else:
-            if x == "cat1":
+            if x == "sample":
                 sample()
-            elif x == "cat2":
+            elif x == "cat1":
                 activity1()
-            elif x == "cat3": 
+            elif x == "cat2": 
                 activity2()
+            elif x == "cat3":
+                activity3()
 main()
