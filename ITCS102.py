@@ -1,11 +1,3 @@
-def sample():
-    print("\n--------------------------------------------------------------------------------\n")
-    x = {"pretty": "elieza","cute":"anne"}
-    print()
-    print(x["pretty"])
-    print()
-    print("\n--------------------------------------------------------------------------------\n")
-
 def activity1():
     print("\n--------------------------------------------------------------------------------\n")
     print()
@@ -823,62 +815,69 @@ def code_challenge16():
 
 def main():
     while True:
+        print("\t\t\t\t\t__________________________________________________________________________________________")
+        print("\n\t\t\t\t\t\t\t\tWelcome to my final project in programming!")
+        print("\t\t\t\t\tThis project is a showcase of everything I’ve learned and achieved throughout this journey.")
+        print("\n\t\t\t\t\t__________________________________________________________________________________________")
+        print("\n\t\t\t\t\t\t\t\t\tSELECT FROM THE COMMANDS BELOW:")
+        print("\nActivity 1 - [1]\tActivity 7 - [7]\tActivity 13 - [13]\tActivity 19 - [19]\nActivity 2 - [2]\tActivity 8 - [8]\tActivity 14 - [14]\tActivity 20 - [20]\nActivity 3 - [3]\tActivity 9 - [9]\tActivity 15 - [15]\tActivity 21 - [21]\nActivity 4 - [4]\tActivity 10 - [10]\tActivity 16 - [16]\tActivity 22 - [22]\nActivity 5 - [5]\tActivity 11 - [11]\tActivity 17 - [17]\tActivity 23 - [23]\nActivity 6 - [6]\tActivity 12 - [12]\tActivity 18 - [18]\tActivity 24 - [24]")
+
         x = input("Enter a command: ")
-        if x == "exit":
+        if x == "exit" or x == "0":
             print("Program executed")
             break
         else:
             if x == "sample":
                 sample()
-            elif x.lower() == "act1":
+            elif x.lower() == "1":
                 activity1()
-            elif x.lower() == "act2": 
+            elif x.lower() == "2": 
                 activity2()
-            elif x.lower() == "act3":
+            elif x.lower() == "3":
                 activity3()
-            elif x.lower() == "act4":
+            elif x.lower() == "4":
                 activity4()
-            elif x.lower() == "act5":
+            elif x.lower() == "5":
                 activity5()
-            elif x.lower() == "act6":
+            elif x.lower() == "6":
                 activity6()
-            elif x.lower() == "act7":
+            elif x.lower() == "7":
                 activity7()
-            elif x.lower() == "act8":
+            elif x.lower() == "8":
                 activity8()
-            elif x.lower() == "act9":
+            elif x.lower() == "9":
                 activity9()
-            elif x.lower() == "act10":
+            elif x.lower() == "10":
                 activity10()
-            elif x.lower() == "act11":
+            elif x.lower() == "11":
                 activity11()
-            elif x.lower() == "act12":
+            elif x.lower() == "12":
                 activity12()
-            elif x.lower() == "act13":
+            elif x.lower() == "13":
                 activity13()
-            elif x.lower() == "act14":
+            elif x.lower() == "14":
                 activity14()
-            elif x.lower() == "act15":
+            elif x.lower() == "15":
                 activity15()
-            elif x.lower() == "act16":
+            elif x.lower() == "16":
                 activity16()
-            elif x.lower() == "act17":
+            elif x.lower() == "17":
                 activity17()
-            elif x.lower() == "act18":
+            elif x.lower() == "18":
                 activity18()
-            elif x.lower() == "act19":
+            elif x.lower() == "19":
                 activity19()
-            elif x.lower() == "act20":
+            elif x.lower() == "20":
                 activity20()
-            elif x.lower() == "act21":
+            elif x.lower() == "21":
                 activity21()
-            elif x.lower() == "act22":
+            elif x.lower() == "22":
                 activity22()
-            elif x.lower() == "act23":
+            elif x.lower() == "23":
                 activity23()
-            elif x.lower() == "act24":
+            elif x.lower() == "24":
                 activity24()
-            elif x.lower() == "act25":
+            elif x.lower() == "25":
                 activity25()
             elif x.lower() == "cc1":
                 code_challenge1()
