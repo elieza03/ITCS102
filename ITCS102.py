@@ -1,3 +1,11 @@
+def sample():
+    print("\n--------------------------------------------------------------------------------\n")
+    x = {"pretty": "elieza","cute":"anne"}
+    print()
+    print(x["pretty"])
+    print()
+    print("\n--------------------------------------------------------------------------------\n")
+
 def activity1():
     print("\n--------------------------------------------------------------------------------\n")
     print()
@@ -180,7 +188,6 @@ def activity11():
         print(f"Hi {name}")
     ("\n--------------------------------------------------------------------------------\n")
 
-
 def activity12():
     ("\n--------------------------------------------------------------------------------\n")
     for m in range(1,10,3):
@@ -213,7 +220,7 @@ def activity15():
         print(z, end="")  # Print the number without a newline
         for y in range(0, z):  # Inner loop to print asterisks
             print("*", end="")  # Append an asterisk for each iteration
-        print("")  # Move to the next line after printing all asterisks for the current number
+    print("")  # Move to the next line after printing all asterisks for the current number
     ("\n--------------------------------------------------------------------------------\n")
 
 
@@ -820,9 +827,9 @@ def main():
         print("\t\t\t\t\tThis project is a showcase of everything I’ve learned and achieved throughout this journey.")
         print("\n\t\t\t\t\t__________________________________________________________________________________________")
         print("\n\t\t\t\t\t\t\t\t\tSELECT FROM THE COMMANDS BELOW:")
-        print("\nActivity 1 - [1]\tActivity 7 - [7]\tActivity 13 - [13]\tActivity 19 - [19]\nActivity 2 - [2]\tActivity 8 - [8]\tActivity 14 - [14]\tActivity 20 - [20]\nActivity 3 - [3]\tActivity 9 - [9]\tActivity 15 - [15]\tActivity 21 - [21]\nActivity 4 - [4]\tActivity 10 - [10]\tActivity 16 - [16]\tActivity 22 - [22]\nActivity 5 - [5]\tActivity 11 - [11]\tActivity 17 - [17]\tActivity 23 - [23]\nActivity 6 - [6]\tActivity 12 - [12]\tActivity 18 - [18]\tActivity 24 - [24]")
+        print("\nActivity 1 - [1]\tActivity 8 -- [8]\tActivity 15 - [15]\tCode Challenge 1 - [cc1]\tCode Challenge 8 -- [cc8]\tCode Challenge 15 - [cc15]\nActivity 2 - [2]\tActivity 9 -- [9]\tActivity 16 - [16]\tCode Challenge 2 - [cc2]\tCode Challenge 9 -- [cc9]\tCode Challenge 16 - [cc16]\nActivity 3 - [3]\tActivity 10 - [10]\tActivity 17 - [17]\tCode Challenge 3 - [cc3]\tCode Challenge 10 - [cc10]\tExit - [0]\nActivity 4 - [4]\tActivity 11 - [11]\tActivity 18 - [18]\tCode Challenge 4 - [cc4]\tCode Challenge 11 - [cc11]\nActivity 5 - [5]\tActivity 12 - [12]\tActivity 19 - [19]\tCode Challenge 5 - [cc5]\tCode Challenge 12 - [cc12]\nActivity 6 - [6]\tActivity 13 - [13]\tActivity 20 - [20]\tCode Challenge 6 - [cc6]\tCode Challenge 13 - [cc13]\nActivity 7 - [7]\tActivity 14 - [14]\tActivity 21 - [21]\tCode Challenge 7 - [cc7]\tCode Challenge 14 - [cc14]")
 
-        x = input("Enter a command: ")
+        x = input("\nEnter a command: ")
         if x == "exit" or x == "0":
             print("Program executed")
             break
