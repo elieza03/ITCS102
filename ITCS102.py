@@ -888,30 +888,29 @@ def main():
                 code_challenge3()
             elif x.lower() == "cc4":
                 code_challenge4()
-            elif x.lower() == "cc1":
+            elif x.lower() == "cc5":
+                code_challenge5()
+            elif x.lower() == "cc6":
+                code_challenge6()
+            elif x.lower() == "cc7":
                 code_challenge1()
-            elif x.lower() == "cc1":
+            elif x.lower() == "cc8":
+                code_challenge8()
+            elif x.lower() == "cc9":
+                code_challenge9()
+            elif x.lower() == "cc10":
+                code_challenge10()
+            elif x.lower() == "cc11":
+                code_challenge11()
+            elif x.lower() == "cc12":
+                code_challenge12()
+            elif x.lower() == "cc13":
+                code_challenge13()
+            elif x.lower() == "cc14":
+                code_challenge14()
+            elif x.lower() == "cc15":
+                code_challenge15()
+            elif x.lower() == "cc16":
                 code_challenge1()
-            elif x.lower() == "cc1":
-                code_challenge1()
-            elif x.lower() == "cc1":
-                code_challenge1()
-            elif x.lower() == "cc1":
-                code_challenge1()
-            elif x.lower() == "cc1":
-                code_challenge1()
-            elif x.lower() == "cc1":
-                code_challenge1()
-            elif x.lower() == "cc1":
-                code_challenge1()
-            elif x.lower() == "cc1":
-                code_challenge1()
-            elif x.lower() == "cc1":
-                code_challenge1()
-            elif x.lower() == "cc1":
-                code_challenge1()
-            elif x.lower() == "cc1":
-                code_challenge1()
-               
-    
+
 main()
