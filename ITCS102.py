@@ -982,4 +982,12 @@ def main():
                 os.system('cls')
                 code_challenge16()
 
+            else:
+                os.system('cls')
+                def wrong():
+                    print("Invalid option, please try again.")
+                wrong()
+                continue
+
+
 main()
