@@ -227,7 +227,7 @@ def activity14():
         print("", end =" ")
         #for p in range(0,11):
             #print("*", end="")
-        print("*")
+        print("loveu")
     print("\n--------------------------------------------------------------------------------\n")
 
 def activity15():
@@ -251,7 +251,7 @@ def activity16():
             print("^",end=" ")
         for k in range(6, x, -1):
             print("*",end=" ")
-    print()
+        print()
     print("\n--------------------------------------------------------------------------------\n")
 
 def activity17():
@@ -385,40 +385,15 @@ def activity24():
 def activity25():
     print("\n--------------------------------------------------------------------------------\n")
     print("Activity 25")
-    # Python list
-    fruit_list = ["apples", "banana", "oranges", "star apple", "grapes"]
-    print(fruit_list)
+    courses = ["BSIT", "BSA", "BSAIS", "BTVTED", "BSSW", "BSPA", "Delete w/o index", "Delete with index"]
 
-    #Indexing / Index - position or loactivityion of an item in a list
-    #           0       1           2           3           4
-    #fruit_list = ["apples", "banana", "oranges", "star apple", "grapes"]
-    print(f"My favorite childhood fruit is {fruit_list[3]}")
+    courses.remove("Delete w/o index")
+    courses.pop()
+    courses.append("DHRS")
+    courses.insert(0, "ABELS")
 
-    print(f"The last item on the list is {fruit_list[-1]}")
-
-    #adding another item to the list
-    fruit_list.append("longgan")
-    print(fruit_list)
-    fruit_list.append("strawberry")
-    print(fruit_list)
-
-    #inserting an item at a specific index
-    fruit_list.insert(3, "strawberry")
-    print(fruit_list)
-    fruit_list.remove("longgan")
-    print(fruit_list)
-
-    while True:
-        new_fruit = input("Do you want to add more fruits? ")
-
-        if new_fruit.lower() == "no":
-            print("You chose not to add more fruits.")
-            break
-        else:
-            fruit_list.append(new_fruit)
-            print("Fruit added to the list.")
-            continue
-            print("\n--------------------------------------------------------------------------------\n")
+    print(courses)
+    print("\n--------------------------------------------------------------------------------\n")
 
 def code_challenge1():
     print("\n--------------------------------------------------------------------------------\n")
