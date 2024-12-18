@@ -205,7 +205,7 @@ def activity12():
     print("Activity 12")
     for m in range(10,0,-1):
 	    print(m)
-    print("\n--------------------------------------------------------------------------------\n")
+print("\n--------------------------------------------------------------------------------\n")
 
 def activity13():
     print("\n--------------------------------------------------------------------------------\n")
@@ -377,7 +377,7 @@ def activity23():
 def activity24():
     print("\n--------------------------------------------------------------------------------\n")
     print("Activity 24")
-    from act23_sample import factorial
+    from activity23 import factorial
 
     print(f"The Factorial of 4 is {factorial(4)}")
     print("\n--------------------------------------------------------------------------------\n")
@@ -988,6 +988,4 @@ def main():
                     print("Invalid option, please try again.")
                 wrong()
                 continue
-
-
 main()
